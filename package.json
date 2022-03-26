@@ -1,8 +1,15 @@
 {
   "name": "konversi-bilangan",
   "version": "0.0.1",
-  "description": "Konversi bilangan binner, octa, decimal dan hexaddecimal",
-  "main": "index.js",
+  "description": "Konversi bilangan binary, octal, decimal dan hexadecimal",
+  "main": "dist/konversi.js",
+  "unpkg": "dist/konversi.umd.js",
+  "module": "dist/konversi.m.js",
+  "exports": "./dist/konversi.modern.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "start": "tsnd ./src/index.ts",
     "build": "microbundle src/index.ts",
