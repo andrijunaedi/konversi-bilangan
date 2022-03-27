@@ -1,7 +1,8 @@
 # konversi-bilangan
 
-# Table of contents
+## Table of contents
 
+- [Instalasi](#instalasi)
 - [Cara penggunaan](#cara-penggunaan)
 - [Parameter](#parameter)
 - [Functions](#functions)
@@ -9,7 +10,7 @@
 - [Contributing](#contributing)
 - [LICENSE](#license)
 
-# Instalasi
+## Instalasi
 
 - Menggunakan yarn:
   ```bash
@@ -20,7 +21,7 @@
   $ npm install konversi-bilangan
   ```
 
-# Cara Penggunaan
+## Cara Penggunaan
 
 ```ts
 import Konversi from 'konversi-bilangan';
@@ -29,7 +30,7 @@ import Konversi from 'konversi-bilangan';
 console.log(new Konversi(12).toBinary()); // 1100
 ```
 
-# Parameter
+## Parameter
 
 ```ts
 new Konversi(angka: number | string, type: 'binary' | 'octal' | 'decimal' | 'hexadecimal' = 'decimal')
@@ -38,14 +39,14 @@ new Konversi(angka: number | string, type: 'binary' | 'octal' | 'decimal' | 'hex
 - `angka` - nilai yang ingin dikonversi
 - `type` - tipe angka, default `decimal`
 
-# Functions
+## Functions
 
 - `.toBinary()`
 - `.toOctal()`
 - `.toDecimal()`
 - `.toHexadecimal()`
 
-# Examples
+## Examples
 
 - Binary ke octal
   ```ts
@@ -64,10 +65,10 @@ new Konversi(angka: number | string, type: 'binary' | 'octal' | 'decimal' | 'hex
   console.log(new Konversi('12D', 'hexadecimal').toBinary()); // Outputs: 100101101
   ```
 
-# Contributing
+## Contributing
 
 I would love for you to contribute to `andrijunaedi/konversi-bilangan`, pull requests are welcome!
 
-# License
+## License
 
 The scripts and documentation in this project are released under the [MIT License](./LICENSE)
