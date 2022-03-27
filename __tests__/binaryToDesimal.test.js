@@ -1,4 +1,4 @@
-const Konversi = require('../dist/konversi');
+const Konversi = require('../dist');
 
 const factoryKonversi = (angka, type) => {
   return new Konversi(angka, type);

@@ -2,11 +2,15 @@
   "name": "konversi-bilangan",
   "version": "0.0.0-semantic-release",
   "description": "Konversi bilangan binary, octal, decimal dan hexadecimal",
-  "main": "dist/konversi.js",
-  "unpkg": "dist/konversi.umd.js",
-  "module": "dist/konversi.m.js",
-  "exports": "./dist/konversi.modern.js",
-  "typings": "dist/index.d.ts",
+  "main": "./dist/index.js",
+  "exports": {
+    "require": "./dist/index.js",
+    "default": "./dist/index.modern.mjs"
+  },
+  "module": "./dist/index.module.js",
+  "unpkg": "./dist/index.umd.js",
+  "source": "./src/index.ts",
+  "types": "./dist/index.d.ts",
   "files": [
     "dist"
   ],
@@ -58,5 +62,8 @@
     "ts-node-dev": "^1.1.8",
     "tslib": "^2.3.1",
     "typescript": "^4.6.3"
+  },
+  "dependencies": {
+    "konversi-bilangan": "^1.0.0-beta.1"
   }
 }
