@@ -2,6 +2,7 @@ env:
   browser: true
   es2021: true
   node: true
+  jest/globals: true
 extends:
   - airbnb-base
   - 'eslint:recommended'
@@ -14,9 +15,12 @@ parserOptions:
   sourceType: module
 plugins:
   - '@typescript-eslint'
+  - jest
 rules: 
   prettier/prettier: error
   no-console: off
   import/no-unresolved: off
   import/extensions: off
   new-cap: ["error", { "newIsCap": true }]
+  no-template-curly-in-string: off
+  '@typescript-eslint/no-var-requires': off
