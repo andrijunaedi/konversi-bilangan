@@ -1,3 +1,11 @@
+# [1.0.0-beta.2](https://github.com/andrijunaedi/konversi-bilangan/compare/v1.0.0-beta.1...v1.0.0-beta.2) (2022-03-27)
+
+
+### Bug Fixes
+
+* **build:** microbundle config ([88e3dce](https://github.com/andrijunaedi/konversi-bilangan/commit/88e3dcefd7c024679d6a2f918268bbb38a9eea2d))
+* delete test konversi bilangan ([8892bed](https://github.com/andrijunaedi/konversi-bilangan/commit/8892bed5488d7c42ff5c7633281e06fd2503aa54))
+
 # 1.0.0-beta.1 (2022-03-27)
 
 
