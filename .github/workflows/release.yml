@@ -1,0 +1,37 @@
+name: Release
+
+on:
+  push:
+    branches: [main, beta]
+
+jobs:
+  release:
+    name: Release
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+      
+    - name: Setup Node.js
+      uses: actions/setup-node@v1
+      with:
+        node-version: 14.x
+
+    - name: Install dependencies
+      run: yarn install --ignore-scripts
+
+    - name: ESLint 
+      run: yarn list
+
+    - name: Build packages
+      run: yarn build
+
+    - name: Test
+      run: yarn test
+
+    - name: Release
+      env:
+        GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+        NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+      run: npx semantic-release

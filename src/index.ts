@@ -1,7 +1,7 @@
 import Converter from './converter';
 import { IConverter, numberType } from './interface';
 
-class konversi implements IConverter {
+class Konversi implements IConverter {
   constructor(
     public value: number | string,
     public type: numberType = 'decimal'
@@ -81,4 +81,4 @@ class konversi implements IConverter {
   }
 }
 
-export default konversi;
+export default Konversi;
