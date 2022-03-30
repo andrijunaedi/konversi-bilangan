@@ -1,3 +1,10 @@
+# [1.0.0-beta.3](https://github.com/andrijunaedi/konversi-bilangan/compare/v1.0.0-beta.2...v1.0.0-beta.3) (2022-03-27)
+
+
+### Bug Fixes
+
+* **docs:** heading ([d364550](https://github.com/andrijunaedi/konversi-bilangan/commit/d364550552efefc1f8d4714d223e4d4b1ed6ea36))
+
 # [1.0.0-beta.2](https://github.com/andrijunaedi/konversi-bilangan/compare/v1.0.0-beta.1...v1.0.0-beta.2) (2022-03-27)
 
 
