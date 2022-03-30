@@ -1,3 +1,10 @@
+# [1.0.0-beta.4](https://github.com/andrijunaedi/konversi-bilangan/compare/v1.0.0-beta.3...v1.0.0-beta.4) (2022-03-30)
+
+
+### Features
+
+* debug mode ([7e509d2](https://github.com/andrijunaedi/konversi-bilangan/commit/7e509d2356ee0770b008dfa3de70b51cfa762563))
+
 # [1.0.0-beta.3](https://github.com/andrijunaedi/konversi-bilangan/compare/v1.0.0-beta.2...v1.0.0-beta.3) (2022-03-27)
 
 

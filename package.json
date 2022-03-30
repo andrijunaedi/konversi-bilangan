@@ -1,6 +1,6 @@
 {
   "name": "konversi-bilangan",
-  "version": "1.0.0-beta.3",
+  "version": "1.0.0-beta.4",
   "description": "Konversi bilangan binary, octal, decimal dan hexadecimal",
   "main": "./dist/index.js",
   "exports": {
